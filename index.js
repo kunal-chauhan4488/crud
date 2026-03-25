@@ -11,6 +11,7 @@
 
 const express = require("express");
 const Router = require("./routes/Router");
+require("dotenv").config();
 const hbs = require("hbs");
 const path = require("path");
 
